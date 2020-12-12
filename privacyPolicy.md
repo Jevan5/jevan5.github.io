@@ -28,3 +28,17 @@ Plantee is committed to protecting the privacy and accuracy of confidential info
 ## Children Under The Age of 13
 
 Our application is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are under 13, please do not provide any information on this application.
+
+## Mailing Policy
+
+Upon registering, you will be sent an email to the email account you provided. This email contains an authentication code to verify the ownership of the email account.
+
+If you need to change your password, perhaps because you forgot it, the process includes an email containing an authentication code to be sent to your email account.
+
+If you contact plantee.info@gmail.com, we will send an automated response to notify you that we have received your email. If we decide to get in contact with you, we will do so through the email account that emailed us.
+
+## Business Transfers
+
+If you have registered through the Plantee application, we will not sell, rent, swap or authorize any third party to use your information without your permission.
+
+In the future, we may sell, buy, merge or partner with other companies or businesses. In such transactions, we may include your information among the transferred assets.
