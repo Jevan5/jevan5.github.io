@@ -4,6 +4,27 @@ Plantee is committed to protecting the privacy and accuracy of confidential info
 
 ## Information Collected
 
-Plantee collects the following analytics upon registering:
+### Information You Provide Plantee
+
 1. Email of the user
 2. Name of the user
+3. Password
+4. Plant watering patterns
+
+### Information Plantee Gathers Automatically
+
+1. IP address of the user during their last login
+2. Timestamp for the user's last login
+
+## How Information Is Used
+
+1. Email of the user is stored as an identifier for the account. This way, their information can be linked to the identifier, instead of the device. So, if they use another device, they can login with their email and have access to their data. The email is also used as a means of communication, to ensure authentication and to resolve forgotten passwords.
+2. Name of the user is stored to personalize the application for the user, to address them by their name.
+3. The password is not stored anywhere, and is hashed before being saved on the server. A token is generated upon login, and appended with an IP address. The token is stored securely on the device, to allow for auto-login from the same IP address for up to 1 week.
+4. Plant watering patterns are linked to the user's identifier, so the user can access their plant information from any device.
+5. IP address of the user is not stored on the server. It is appended to a token before being hashed, at which point it is stored on the server. This is so the token assigned during login can only be used from the same IP address for auto-login. This is done to add an extra layer of security, as a leaked token could only be used if the client's IP matches the last login as well.
+6. Timestamp for the user's last login is stored in order to retire valid tokens after 7 days.
+
+## Children Under The Age of 13
+
+Our application is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are under 13, please do not provide any information on this application.
